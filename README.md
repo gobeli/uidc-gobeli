@@ -1,2 +1,2 @@
 # uidc-gobeli
-https://travis-ci.org/gobeli/uidc-gobeli.svg?branch=master
+[![Build Status](https://travis-ci.org/gobeli/uidc-gobeli.svg?branch=master)](https://travis-ci.org/gobeli/uidc-gobeli)
