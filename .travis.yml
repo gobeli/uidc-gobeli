@@ -2,6 +2,8 @@ language: node_js
 node_js:
   - "7"
 script: npm run build
+ignore:
+  - .gitignore
 deploy:
   provider: pages
   skip_cleanup: true
