@@ -7,6 +7,25 @@
 /* Gallery (transitions) */
 
 	.gallery {
+		
+
+		margin-bottom: _size(margin, default);
+
+		@include breakpoint(xlarge) {
+			margin-bottom: _size(margin, xlarge);
+		}
+
+		@include breakpoint(large) {
+			margin-bottom: _size(margin, large);
+		}
+
+		@include breakpoint(medium) {
+			margin-bottom: _size(margin, medium) * 1.5;
+		}
+
+		@include breakpoint(small) {
+			margin-bottom: _size(margin, small) * 1.5;
+		}
 
 		// Mixin.
 			@mixin transition-gallery($event) {
